@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+
+
+body
+{
+    overflow-x:hidden;
+    background-color: #eff3f8;
+    font-family: 'Montserrat', sans-serif;
+}
+.review_thumb_selected
+{
+    border-bottom-style: dotted;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+}
+.review_thumb:hover
+{
+    cursor: pointer;
+}
+.modal_submit_button
+{
+    margin-top : 4vh;
+    background-color: #e00022;
+    color : white;
+    border : none;
+    width  :11vw;
+    height: 7vh;
+    border-radius: 0.8vh;
+}
+.inji-heading
+{
+    font-family: 'Raleway', sans-serif;
+}
+.model-content
+{
+    z-index: 9999;
+}
+.bodyClass
+{
+    text-align: center;
+    color: #e00022;
+    
+}
+.bodyClass h1
+{
+    margin-top: 8vh;
+    color : #e00022;
+}
+.bodyClass h3
+{
+    color : #e00022;
+    margin-bottom : 2vh;
+}
+.LoginContainer
+{
+   text-align: center;
+}
+.InputBox-1
+{
+    text-align: center;
+    margin-top:9vh;
+    width: 18vw;
+    height: 4vh;
+    border-radius: 0.5vh;
+    border : none;
+    background-color: #e4e9f0;
+}
+.InputBox-2
+{
+    text-align: center;
+    margin-top : 2vh;
+    width: 18vw;
+    height: 4vh;
+    border-radius: 0.5vh;
+    background-color: #e4e9f0;
+    border : none;
+}
+.LoginButton
+{
+    margin-top:5vh;
+    width: 10vw;
+    background-color: #e00022;
+    color : white;
+    border : none;
+    border-radius: 0.6vh;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: 'Montserrat', sans-serif;
+    height: 4vh;
+    font-weight: bold;
+}
+.LoginBox
+{
+    text-align: center;
+    background-color:#ffffff;
+    margin : auto;
+    max-width : 35vw;
+    height: 55vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 0.3vh;
+}
+.container-fluid
+{
+    padding : 0;
+}
+.LoginBox a 
+{
+    color : #e00022;
+}
+.LoginBox p
+{
+    color : #e00022;
+}
+.searchResultCard
+{
+    background-color: white;
+    color : #e00022;
+    border-radius: 0.5vh;
+    height: 100%;
+    margin: auto;
+    max-width: 96%;
+    padding-top: 3vh;
+    padding-bottom : 3vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+}
+.searchResultCard h3 
+{
+    float: left;
+    display: block;
+}
+.searchResultCard img
+{
+    float: right;
+    display: inline;
+}
+.searchResultCard h5
+{
+    float: left;
+    display: block;
+}
+
+
+.homeDiv
+{
+    margin : 0;   
+}
+.searchbar
+{
+    border-style: solid;
+    border-width : 2px;
+    border-color : #e00022;
+    margin-top : 18vh;
+    width : 40vw;
+    height: 6vh;
+    text-align: center;
+    border-radius: 1vh;
+    background-color : white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.main-content
+{
+    text-align: center;
+    padding: 0px;
+
+}
+.autoCompleteBox
+{
+    background-color: white;
+    color : #e00022;
+    height: 50%;
+    position: absolute;
+    z-index: 9999;
+    left : 50%;
+    width : 40vw;
+    margin-left: -22vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding-top: 2vh;
+}
+.gobutton
+{
+    background-color: #e00022;
+    color : white;
+    border : none;
+    border-radius: 1vh;
+    height: 6vh;
+    margin-left: 1vw;   
+    font-weight: bold;
+    width : 4vw;
+}
+.gobutton:hover
+{
+    transition-duration: 0.3s;
+    background-color: white;
+    color : rgb(0, 14, 44);
+    cursor : pointer;
+}
+.detail-add
+{
+    text-align: center;
+}
+.firstInput
+{
+    margin-top : 8vh;
+    text-align: center;
+    width : 19vw;
+    height: 5vh;
+}
+.nextInput
+{
+    text-align: center;
+    margin-top :3vh;
+    width : 19vw;
+    height: 5vh;
+}
+.movie-submit
+{
+    border:none;
+    background-color: #e00022;
+    color : white;
+    border-radius: 0.5vh;
+    margin-top : 6vh;
+    width: 10vw ; 
+    height : 4vh;
+}
+.detail-add h1
+{
+    color : white;
+}
+.modal_kid_friendly_button
+{
+    margin-top : 5vh;
+    border-style : solid;
+    border-color : grey;
+    border-width: 1px;
+    padding : 1vh;
+    border-radius: 1vh;
+    
+}
+.modal_kid_friendly_button:focus
+{
+    outline : none;
+}
+
+.movie-list
+{
+    background-color : #e6e8f0;
+    padding-top: 2vh;
+    height: 100%;
+    padding-bottom: 10vh;
+    margin-top : 9vh;
+}
+.movie-card
+{
+    height: 55vh;
+    animation-name: fade;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    padding-top: 1vh;
+    background-color:#e00022;
+    max-width: 20vw;
+    margin-top : 5vh;
+    margin-left : 2.75vw;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color : white;
+    border-radius: 1.2vh;
+
+}
+@keyframes fade
+{
+    from{opacity : 0;}
+    to{opacity: 1;}
+}
+.movie-card:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color:#e00022;
+    transition-duration: 0.3s;
+}
+#dropdown-basic-button
+{
+    float : right;
+    margin-right:2vw;   
+    background-color: white;
+    color : #e00022;
+    border : none ;
+    text-decoration: none;
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.nav-bar
+{
+    background-color: #e00022;
+    margin : auto;
+    padding: 0px;
+    padding-top: 1.8vh;
+    color : white;
+    text-align: center;
+    height: 10vh;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.nav-bar h2
+{
+    float:left;
+    margin-left: 2vw;
+}
+.movie-card h6
+{
+    margin-top : 2vh;
+
+}
+.poster-img
+{
+    margin-top : 2vh;
+}
+
+.movie-detail-card
+{
+    background-color : white;
+    color : #e00022;
+    max-width : 60vw;
+    position: fixed;
+    height: 85%;
+    margin-top : 6%;
+    margin-left : 4vh;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+.movie-detail-card-2
+{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color : white;
+    margin : 0;
+    height: 85vh;
+}
+
+.hover-image:hover
+{
+    cursor: pointer;
+}
+.reviews
+{
+    margin-top: 5%;
+    text-align: center;
+    background-color : #e4e9f0;  
+    margin-left: 62%;
+    max-width:  40vw;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.review-card
+{
+    animation-name: reviewAnimation;
+    animation-iteration-count: 1;
+    animation-duration: 0.4s;
+    margin-right : 3%;
+    padding-top : 3vh;
+    margin-top : 2%;
+    padding-bottom: 3vh;
+    background-color: #e00022;
+    background: -webkit-linear-gradient(to left, rgb(156, 51, 39), rgb(185, 83, 95));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(163, 76, 66), rgb(207, 28, 49));
+    color:white;
+    border-radius: 0.7vh;
+    height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@keyframes reviewAnimation
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.comment
+{
+    /*TODO align review box to the bottom*/
+    position: fixed;
+    background-color: red;
+    width : 35vw;
+    text-align: center;
+    height: 20vh;
+    margin-top  :5%;
+    background-color: rgb(0, 14, 44);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-top-right-radius: 1.9vh;
+    border-top-left-radius: 1.9vh;    
+    color: white;
+
+
+}
+.comment input
+{
+        width : 100%;
+        height: 60%;
+        border : none;
+        background-color: #e4e9f0;
+        border-top-right-radius: 2vh;
+        border-top-left-radius: 2vh;
+
+}.star-div
+{
+    margin-top: 4%;
+}
+.comment h4
+{
+    padding-top: 2vh;
+}
+
+.review-submit-button
+{
+    width  :100%;
+    background-color: #e00022;
+    height: 50%;
+    color : white;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+}
+.review-submit-button:hover
+{
+    cursor : pointer;
+    background-color: white;
+    color : black;
+    transition-duration: 0.2s;  
+}
+.detail-poster
+{
+   
+    height: 50vh;
+}
+.review_text_field
+{
+    background-color: #e4e9f0;
+    border : none;
+    height: 20vh;
+    width: 25vw;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.floating-button{/* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: red; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 2vh; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  margin-right : 3%;
+  width:200px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  height: 85px;
+  font-size: 120%;
+  text-decoration: none;
+}
+.floating-button:focus
+{
+    outline: none;
+}
+.floating-button:hover
+{
+    background-color: red;
+    color : white;
+    transition-duration: 0.2s;
+}
